@@ -1,0 +1,11 @@
+HO;Status;Income;DB
+Y;Single;2;N
+N;Married;1;N
+N;Single;1;N
+Y;Married;2;N
+N;Divorced;1;Y
+N;Married;1;N
+Y;Divorced;3;N
+N;Single;1;Y
+N;Married;1;N
+N;Single;1;Y

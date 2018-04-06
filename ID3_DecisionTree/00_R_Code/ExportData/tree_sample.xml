@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tree classes="Bus:4,Car:3,Train:3" entropy="0.991">
+<node Travel_Cost="Cheap" classes="Bus:4,Train:1" entropy(Cheap)="0.722 information_gain(Travel_Cost)="0.845">
+<node Gender="Female" classes="Bus:1,Train:1" entropy(Female)="1 information_gain(Gender)="0.167">
+<node Car_Ownership="0" classes="Bus:1" entropy(0)="NaN information_gain(Car_Ownership)="0.315">
+Bus
+</node>
+<node Car_Ownership="1" classes="Train:1" entropy(1)="NaN information_gain(Car_Ownership)="0.315">
+Train
+</node>
+</node>
+<node Gender="Male" classes="Bus:3" entropy(Male)="NaN information_gain(Gender)="0.167">
+Bus
+</node>
+</node>
+<node Travel_Cost="Expensive" classes="Car:3" entropy(Expensive)="0 information_gain(Travel_Cost)="0.845">
+Car
+</node>
+<node Travel_Cost="Standard" classes="Train:2" entropy(Standard)="0 information_gain(Travel_Cost)="0.845">
+Train
+</node>
+</tree>
+tree

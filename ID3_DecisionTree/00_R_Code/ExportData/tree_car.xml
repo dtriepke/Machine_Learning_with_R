@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tree classes="acc:384,good:69,unacc:1210,vgood:65" entropy="0.603">
+<node safety="high" classes="acc:204,good:30,unacc:277,vgood:65" entropy_high="0.808" informationgain_safety="0.131">
+<node persons="2" classes="unacc:192" entropy_2="0" informationgain_persons="0.248">
+unacc
+</node>
+<node persons="4" classes="acc:108,good:18,unacc:36,vgood:30" entropy_4="0.829" informationgain_persons="0.248">
+<node buying="high" classes="acc:36,unacc:12" entropy_high="0.406" informationgain_buying="0.245">
+<node maint="high" classes="acc:12" entropy_high="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="low" classes="acc:12" entropy_low="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="med" classes="acc:12" entropy_med="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="vhigh" classes="unacc:12" entropy_vhigh="0" informationgain_maint="0.406">
+unacc
+</node>
+</node>
+<node buying="low" classes="acc:18,good:12,vgood:18" entropy_low="0.781" informationgain_buying="0.245">
+<node maint="high" classes="acc:6,vgood:6" entropy_high="0.5" informationgain_maint="0.406">
+<node low_boot="big" classes="vgood:4" entropy_big="0" informationgain_low_boot="0.333">
+vgood
+</node>
+<node low_boot="med" classes="acc:2,vgood:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="acc:1" entropy_2="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="4" classes="vgood:1" entropy_4="0" informationgain_doors="0.5">
+vgood
+</node>
+<node doors="5more" classes="vgood:1" entropy_5more="0" informationgain_doors="0.5">
+vgood
+</node>
+</node>
+<node low_boot="small" classes="acc:4" entropy_small="0" informationgain_low_boot="0.333">
+acc
+</node>
+</node>
+<node maint="low" classes="good:6,vgood:6" entropy_low="0.5" informationgain_maint="0.406">
+<node low_boot="big" classes="vgood:4" entropy_big="0" informationgain_low_boot="0.333">
+vgood
+</node>
+<node low_boot="med" classes="good:2,vgood:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="good:1" entropy_2="0" informationgain_doors="0.5">
+good
+</node>
+<node doors="3" classes="good:1" entropy_3="0" informationgain_doors="0.5">
+good
+</node>
+<node doors="4" classes="vgood:1" entropy_4="0" informationgain_doors="0.5">
+vgood
+</node>
+<node doors="5more" classes="vgood:1" entropy_5more="0" informationgain_doors="0.5">
+vgood
+</node>
+</node>
+<node low_boot="small" classes="good:4" entropy_small="0" informationgain_low_boot="0.333">
+good
+</node>
+</node>
+<node maint="med" classes="good:6,vgood:6" entropy_med="0.5" informationgain_maint="0.406">
+<node low_boot="big" classes="vgood:4" entropy_big="0" informationgain_low_boot="0.333">
+vgood
+</node>
+<node low_boot="med" classes="good:2,vgood:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="good:1" entropy_2="0" informationgain_doors="0.5">
+good
+</node>
+<node doors="3" classes="good:1" entropy_3="0" informationgain_doors="0.5">
+good
+</node>
+<node doors="4" classes="vgood:1" entropy_4="0" informationgain_doors="0.5">
+vgood
+</node>
+<node doors="5more" classes="vgood:1" entropy_5more="0" informationgain_doors="0.5">
+vgood
+</node>
+</node>
+<node low_boot="small" classes="good:4" entropy_small="0" informationgain_low_boot="0.333">
+good
+</node>
+</node>
+<node maint="vhigh" classes="acc:12" entropy_vhigh="0" informationgain_maint="0.406">
+acc
+</node>
+</node>
+<node buying="med" classes="acc:30,good:6,vgood:12" entropy_med="0.649" informationgain_buying="0.245">
+<node maint="high" classes="acc:12" entropy_high="0" informationgain_maint="0.399">
+acc
+</node>
+<node maint="low" classes="good:6,vgood:6" entropy_low="0.5" informationgain_maint="0.399">
+<node low_boot="big" classes="vgood:4" entropy_big="0" informationgain_low_boot="0.333">
+vgood
+</node>
+<node low_boot="med" classes="good:2,vgood:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="good:1" entropy_2="0" informationgain_doors="0.5">
+good
+</node>
+<node doors="3" classes="good:1" entropy_3="0" informationgain_doors="0.5">
+good
+</node>
+<node doors="4" classes="vgood:1" entropy_4="0" informationgain_doors="0.5">
+vgood
+</node>
+<node doors="5more" classes="vgood:1" entropy_5more="0" informationgain_doors="0.5">
+vgood
+</node>
+</node>
+<node low_boot="small" classes="good:4" entropy_small="0" informationgain_low_boot="0.333">
+good
+</node>
+</node>
+<node maint="med" classes="acc:6,vgood:6" entropy_med="0.5" informationgain_maint="0.399">
+<node low_boot="big" classes="vgood:4" entropy_big="0" informationgain_low_boot="0.333">
+vgood
+</node>
+<node low_boot="med" classes="acc:2,vgood:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="acc:1" entropy_2="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="4" classes="vgood:1" entropy_4="0" informationgain_doors="0.5">
+vgood
+</node>
+<node doors="5more" classes="vgood:1" entropy_5more="0" informationgain_doors="0.5">
+vgood
+</node>
+</node>
+<node low_boot="small" classes="acc:4" entropy_small="0" informationgain_low_boot="0.333">
+acc
+</node>
+</node>
+<node maint="vhigh" classes="acc:12" entropy_vhigh="0" informationgain_maint="0.399">
+acc
+</node>
+</node>
+<node buying="vhigh" classes="acc:24,unacc:24" entropy_vhigh="0.5" informationgain_buying="0.245">
+<node maint="high" classes="unacc:12" entropy_high="0" informationgain_maint="0.5">
+unacc
+</node>
+<node maint="low" classes="acc:12" entropy_low="0" informationgain_maint="0.5">
+acc
+</node>
+<node maint="med" classes="acc:12" entropy_med="0" informationgain_maint="0.5">
+acc
+</node>
+<node maint="vhigh" classes="unacc:12" entropy_vhigh="0" informationgain_maint="0.5">
+unacc
+</node>
+</node>
+</node>
+<node persons="more" classes="acc:96,good:12,unacc:49,vgood:35" entropy_more="0.85" informationgain_persons="0.248">
+<node buying="high" classes="acc:33,unacc:15" entropy_high="0.448" informationgain_buying="0.193">
+<node maint="high" classes="acc:11,unacc:1" entropy_high="0.207" informationgain_maint="0.293">
+<node doors="2" classes="acc:2,unacc:1" entropy_2="0.459" informationgain_doors="0.092">
+<node low_boot="big" classes="acc:1" entropy_big="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="med" classes="acc:1" entropy_med="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="small" classes="unacc:1" entropy_small="0" informationgain_low_boot="0.459">
+unacc
+</node>
+</node>
+<node doors="3" classes="acc:3" entropy_3="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="4" classes="acc:3" entropy_4="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="5more" classes="acc:3" entropy_5more="0" informationgain_doors="0.092">
+acc
+</node>
+</node>
+<node maint="low" classes="acc:11,unacc:1" entropy_low="0.207" informationgain_maint="0.293">
+<node doors="2" classes="acc:2,unacc:1" entropy_2="0.459" informationgain_doors="0.092">
+<node low_boot="big" classes="acc:1" entropy_big="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="med" classes="acc:1" entropy_med="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="small" classes="unacc:1" entropy_small="0" informationgain_low_boot="0.459">
+unacc
+</node>
+</node>
+<node doors="3" classes="acc:3" entropy_3="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="4" classes="acc:3" entropy_4="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="5more" classes="acc:3" entropy_5more="0" informationgain_doors="0.092">
+acc
+</node>
+</node>
+<node maint="med" classes="acc:11,unacc:1" entropy_med="0.207" informationgain_maint="0.293">
+<node doors="2" classes="acc:2,unacc:1" entropy_2="0.459" informationgain_doors="0.092">
+<node low_boot="big" classes="acc:1" entropy_big="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="med" classes="acc:1" entropy_med="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="small" classes="unacc:1" entropy_small="0" informationgain_low_boot="0.459">
+unacc
+</node>
+</node>
+<node doors="3" classes="acc:3" entropy_3="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="4" classes="acc:3" entropy_4="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="5more" classes="acc:3" entropy_5more="0" informationgain_doors="0.092">
+acc
+</node>
+</node>
+<node maint="vhigh" classes="unacc:12" entropy_vhigh="0" informationgain_maint="0.293">
+unacc
+</node>
+</node>
+<node buying="low" classes="acc:15,good:8,unacc:4,vgood:21" entropy_low="0.888" informationgain_buying="0.193">
+<node maint="high" classes="acc:4,unacc:1,vgood:7" entropy_high="0.64" informationgain_maint="0.356">
+<node low_boot="big" classes="vgood:4" entropy_big="0" informationgain_low_boot="0.37">
+vgood
+</node>
+<node low_boot="med" classes="acc:1,vgood:3" entropy_med="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="acc:1" entropy_2="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="3" classes="vgood:1" entropy_3="0" informationgain_doors="0.406">
+vgood
+</node>
+<node doors="4" classes="vgood:1" entropy_4="0" informationgain_doors="0.406">
+vgood
+</node>
+<node doors="5more" classes="vgood:1" entropy_5more="0" informationgain_doors="0.406">
+vgood
+</node>
+</node>
+<node low_boot="small" classes="acc:3,unacc:1" entropy_small="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+</node>
+<node maint="low" classes="good:4,unacc:1,vgood:7" entropy_low="0.64" informationgain_maint="0.356">
+<node low_boot="big" classes="vgood:4" entropy_big="0" informationgain_low_boot="0.37">
+vgood
+</node>
+<node low_boot="med" classes="good:1,vgood:3" entropy_med="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="good:1" entropy_2="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="3" classes="vgood:1" entropy_3="0" informationgain_doors="0.406">
+vgood
+</node>
+<node doors="4" classes="vgood:1" entropy_4="0" informationgain_doors="0.406">
+vgood
+</node>
+<node doors="5more" classes="vgood:1" entropy_5more="0" informationgain_doors="0.406">
+vgood
+</node>
+</node>
+<node low_boot="small" classes="good:3,unacc:1" entropy_small="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="good:1" entropy_3="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="4" classes="good:1" entropy_4="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="5more" classes="good:1" entropy_5more="0" informationgain_doors="0.406">
+good
+</node>
+</node>
+</node>
+<node maint="med" classes="good:4,unacc:1,vgood:7" entropy_med="0.64" informationgain_maint="0.356">
+<node low_boot="big" classes="vgood:4" entropy_big="0" informationgain_low_boot="0.37">
+vgood
+</node>
+<node low_boot="med" classes="good:1,vgood:3" entropy_med="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="good:1" entropy_2="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="3" classes="vgood:1" entropy_3="0" informationgain_doors="0.406">
+vgood
+</node>
+<node doors="4" classes="vgood:1" entropy_4="0" informationgain_doors="0.406">
+vgood
+</node>
+<node doors="5more" classes="vgood:1" entropy_5more="0" informationgain_doors="0.406">
+vgood
+</node>
+</node>
+<node low_boot="small" classes="good:3,unacc:1" entropy_small="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="good:1" entropy_3="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="4" classes="good:1" entropy_4="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="5more" classes="good:1" entropy_5more="0" informationgain_doors="0.406">
+good
+</node>
+</node>
+</node>
+<node maint="vhigh" classes="acc:11,unacc:1" entropy_vhigh="0.207" informationgain_maint="0.356">
+<node doors="2" classes="acc:2,unacc:1" entropy_2="0.459" informationgain_doors="0.092">
+<node low_boot="big" classes="acc:1" entropy_big="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="med" classes="acc:1" entropy_med="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="small" classes="unacc:1" entropy_small="0" informationgain_low_boot="0.459">
+unacc
+</node>
+</node>
+<node doors="3" classes="acc:3" entropy_3="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="4" classes="acc:3" entropy_4="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="5more" classes="acc:3" entropy_5more="0" informationgain_doors="0.092">
+acc
+</node>
+</node>
+</node>
+<node buying="med" classes="acc:26,good:4,unacc:4,vgood:14" entropy_med="0.798" informationgain_buying="0.193">
+<node maint="high" classes="acc:11,unacc:1" entropy_high="0.207" informationgain_maint="0.374">
+<node doors="2" classes="acc:2,unacc:1" entropy_2="0.459" informationgain_doors="0.092">
+<node low_boot="big" classes="acc:1" entropy_big="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="med" classes="acc:1" entropy_med="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="small" classes="unacc:1" entropy_small="0" informationgain_low_boot="0.459">
+unacc
+</node>
+</node>
+<node doors="3" classes="acc:3" entropy_3="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="4" classes="acc:3" entropy_4="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="5more" classes="acc:3" entropy_5more="0" informationgain_doors="0.092">
+acc
+</node>
+</node>
+<node maint="low" classes="good:4,unacc:1,vgood:7" entropy_low="0.64" informationgain_maint="0.374">
+<node low_boot="big" classes="vgood:4" entropy_big="0" informationgain_low_boot="0.37">
+vgood
+</node>
+<node low_boot="med" classes="good:1,vgood:3" entropy_med="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="good:1" entropy_2="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="3" classes="vgood:1" entropy_3="0" informationgain_doors="0.406">
+vgood
+</node>
+<node doors="4" classes="vgood:1" entropy_4="0" informationgain_doors="0.406">
+vgood
+</node>
+<node doors="5more" classes="vgood:1" entropy_5more="0" informationgain_doors="0.406">
+vgood
+</node>
+</node>
+<node low_boot="small" classes="good:3,unacc:1" entropy_small="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="good:1" entropy_3="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="4" classes="good:1" entropy_4="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="5more" classes="good:1" entropy_5more="0" informationgain_doors="0.406">
+good
+</node>
+</node>
+</node>
+<node maint="med" classes="acc:4,unacc:1,vgood:7" entropy_med="0.64" informationgain_maint="0.374">
+<node low_boot="big" classes="vgood:4" entropy_big="0" informationgain_low_boot="0.37">
+vgood
+</node>
+<node low_boot="med" classes="acc:1,vgood:3" entropy_med="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="acc:1" entropy_2="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="3" classes="vgood:1" entropy_3="0" informationgain_doors="0.406">
+vgood
+</node>
+<node doors="4" classes="vgood:1" entropy_4="0" informationgain_doors="0.406">
+vgood
+</node>
+<node doors="5more" classes="vgood:1" entropy_5more="0" informationgain_doors="0.406">
+vgood
+</node>
+</node>
+<node low_boot="small" classes="acc:3,unacc:1" entropy_small="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+</node>
+<node maint="vhigh" classes="acc:11,unacc:1" entropy_vhigh="0.207" informationgain_maint="0.374">
+<node doors="2" classes="acc:2,unacc:1" entropy_2="0.459" informationgain_doors="0.092">
+<node low_boot="big" classes="acc:1" entropy_big="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="med" classes="acc:1" entropy_med="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="small" classes="unacc:1" entropy_small="0" informationgain_low_boot="0.459">
+unacc
+</node>
+</node>
+<node doors="3" classes="acc:3" entropy_3="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="4" classes="acc:3" entropy_4="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="5more" classes="acc:3" entropy_5more="0" informationgain_doors="0.092">
+acc
+</node>
+</node>
+</node>
+<node buying="vhigh" classes="acc:22,unacc:26" entropy_vhigh="0.497" informationgain_buying="0.193">
+<node maint="high" classes="unacc:12" entropy_high="0" informationgain_maint="0.394">
+unacc
+</node>
+<node maint="low" classes="acc:11,unacc:1" entropy_low="0.207" informationgain_maint="0.394">
+<node doors="2" classes="acc:2,unacc:1" entropy_2="0.459" informationgain_doors="0.092">
+<node low_boot="big" classes="acc:1" entropy_big="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="med" classes="acc:1" entropy_med="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="small" classes="unacc:1" entropy_small="0" informationgain_low_boot="0.459">
+unacc
+</node>
+</node>
+<node doors="3" classes="acc:3" entropy_3="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="4" classes="acc:3" entropy_4="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="5more" classes="acc:3" entropy_5more="0" informationgain_doors="0.092">
+acc
+</node>
+</node>
+<node maint="med" classes="acc:11,unacc:1" entropy_med="0.207" informationgain_maint="0.394">
+<node doors="2" classes="acc:2,unacc:1" entropy_2="0.459" informationgain_doors="0.092">
+<node low_boot="big" classes="acc:1" entropy_big="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="med" classes="acc:1" entropy_med="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="small" classes="unacc:1" entropy_small="0" informationgain_low_boot="0.459">
+unacc
+</node>
+</node>
+<node doors="3" classes="acc:3" entropy_3="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="4" classes="acc:3" entropy_4="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="5more" classes="acc:3" entropy_5more="0" informationgain_doors="0.092">
+acc
+</node>
+</node>
+<node maint="vhigh" classes="unacc:12" entropy_vhigh="0" informationgain_maint="0.394">
+unacc
+</node>
+</node>
+</node>
+</node>
+<node safety="low" classes="unacc:576" entropy_low="0" informationgain_safety="0.131">
+unacc
+</node>
+<node safety="med" classes="acc:180,good:39,unacc:357" entropy_med="0.608" informationgain_safety="0.131">
+<node persons="2" classes="unacc:192" entropy_2="0" informationgain_persons="0.151">
+unacc
+</node>
+<node persons="4" classes="acc:90,good:18,unacc:84" entropy_4="0.677" informationgain_persons="0.151">
+<node buying="high" classes="acc:18,unacc:30" entropy_high="0.477" informationgain_buying="0.132">
+<node low_boot="big" classes="acc:12,unacc:4" entropy_big="0.406" informationgain_low_boot="0.183">
+<node maint="high" classes="acc:4" entropy_high="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="low" classes="acc:4" entropy_low="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="med" classes="acc:4" entropy_med="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="vhigh" classes="unacc:4" entropy_vhigh="0" informationgain_maint="0.406">
+unacc
+</node>
+</node>
+<node low_boot="med" classes="acc:6,unacc:10" entropy_med="0.477" informationgain_low_boot="0.183">
+<node doors="2" classes="unacc:4" entropy_2="0" informationgain_doors="0.274">
+unacc
+</node>
+<node doors="3" classes="unacc:4" entropy_3="0" informationgain_doors="0.274">
+unacc
+</node>
+<node doors="4" classes="acc:3,unacc:1" entropy_4="0.406" informationgain_doors="0.274">
+<node maint="high" classes="acc:1" entropy_high="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="low" classes="acc:1" entropy_low="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="med" classes="acc:1" entropy_med="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="vhigh" classes="unacc:1" entropy_vhigh="0" informationgain_maint="0.406">
+unacc
+</node>
+</node>
+<node doors="5more" classes="acc:3,unacc:1" entropy_5more="0.406" informationgain_doors="0.274">
+<node maint="high" classes="acc:1" entropy_high="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="low" classes="acc:1" entropy_low="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="med" classes="acc:1" entropy_med="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="vhigh" classes="unacc:1" entropy_vhigh="0" informationgain_maint="0.406">
+unacc
+</node>
+</node>
+</node>
+<node low_boot="small" classes="unacc:16" entropy_small="0" informationgain_low_boot="0.183">
+unacc
+</node>
+</node>
+<node buying="low" classes="acc:30,good:12,unacc:6" entropy_low="0.649" informationgain_buying="0.132">
+<node maint="high" classes="acc:12" entropy_high="0" informationgain_maint="0.274">
+acc
+</node>
+<node maint="low" classes="acc:6,good:6" entropy_low="0.5" informationgain_maint="0.274">
+<node low_boot="big" classes="good:4" entropy_big="0" informationgain_low_boot="0.333">
+good
+</node>
+<node low_boot="med" classes="acc:2,good:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="acc:1" entropy_2="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="4" classes="good:1" entropy_4="0" informationgain_doors="0.5">
+good
+</node>
+<node doors="5more" classes="good:1" entropy_5more="0" informationgain_doors="0.5">
+good
+</node>
+</node>
+<node low_boot="small" classes="acc:4" entropy_small="0" informationgain_low_boot="0.333">
+acc
+</node>
+</node>
+<node maint="med" classes="acc:6,good:6" entropy_med="0.5" informationgain_maint="0.274">
+<node low_boot="big" classes="good:4" entropy_big="0" informationgain_low_boot="0.333">
+good
+</node>
+<node low_boot="med" classes="acc:2,good:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="acc:1" entropy_2="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="4" classes="good:1" entropy_4="0" informationgain_doors="0.5">
+good
+</node>
+<node doors="5more" classes="good:1" entropy_5more="0" informationgain_doors="0.5">
+good
+</node>
+</node>
+<node low_boot="small" classes="acc:4" entropy_small="0" informationgain_low_boot="0.333">
+acc
+</node>
+</node>
+<node maint="vhigh" classes="acc:6,unacc:6" entropy_vhigh="0.5" informationgain_maint="0.274">
+<node low_boot="big" classes="acc:4" entropy_big="0" informationgain_low_boot="0.333">
+acc
+</node>
+<node low_boot="med" classes="acc:2,unacc:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.5">
+unacc
+</node>
+<node doors="3" classes="unacc:1" entropy_3="0" informationgain_doors="0.5">
+unacc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.5">
+acc
+</node>
+</node>
+<node low_boot="small" classes="unacc:4" entropy_small="0" informationgain_low_boot="0.333">
+unacc
+</node>
+</node>
+</node>
+<node buying="med" classes="acc:30,good:6,unacc:12" entropy_med="0.649" informationgain_buying="0.132">
+<node maint="high" classes="acc:6,unacc:6" entropy_high="0.5" informationgain_maint="0.274">
+<node low_boot="big" classes="acc:4" entropy_big="0" informationgain_low_boot="0.333">
+acc
+</node>
+<node low_boot="med" classes="acc:2,unacc:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.5">
+unacc
+</node>
+<node doors="3" classes="unacc:1" entropy_3="0" informationgain_doors="0.5">
+unacc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.5">
+acc
+</node>
+</node>
+<node low_boot="small" classes="unacc:4" entropy_small="0" informationgain_low_boot="0.333">
+unacc
+</node>
+</node>
+<node maint="low" classes="acc:6,good:6" entropy_low="0.5" informationgain_maint="0.274">
+<node low_boot="big" classes="good:4" entropy_big="0" informationgain_low_boot="0.333">
+good
+</node>
+<node low_boot="med" classes="acc:2,good:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="acc:1" entropy_2="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="4" classes="good:1" entropy_4="0" informationgain_doors="0.5">
+good
+</node>
+<node doors="5more" classes="good:1" entropy_5more="0" informationgain_doors="0.5">
+good
+</node>
+</node>
+<node low_boot="small" classes="acc:4" entropy_small="0" informationgain_low_boot="0.333">
+acc
+</node>
+</node>
+<node maint="med" classes="acc:12" entropy_med="0" informationgain_maint="0.274">
+acc
+</node>
+<node maint="vhigh" classes="acc:6,unacc:6" entropy_vhigh="0.5" informationgain_maint="0.274">
+<node low_boot="big" classes="acc:4" entropy_big="0" informationgain_low_boot="0.333">
+acc
+</node>
+<node low_boot="med" classes="acc:2,unacc:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.5">
+unacc
+</node>
+<node doors="3" classes="unacc:1" entropy_3="0" informationgain_doors="0.5">
+unacc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.5">
+acc
+</node>
+</node>
+<node low_boot="small" classes="unacc:4" entropy_small="0" informationgain_low_boot="0.333">
+unacc
+</node>
+</node>
+</node>
+<node buying="vhigh" classes="acc:12,unacc:36" entropy_vhigh="0.406" informationgain_buying="0.132">
+<node maint="high" classes="unacc:12" entropy_high="0" informationgain_maint="0.156">
+unacc
+</node>
+<node maint="low" classes="acc:6,unacc:6" entropy_low="0.5" informationgain_maint="0.156">
+<node low_boot="big" classes="acc:4" entropy_big="0" informationgain_low_boot="0.333">
+acc
+</node>
+<node low_boot="med" classes="acc:2,unacc:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.5">
+unacc
+</node>
+<node doors="3" classes="unacc:1" entropy_3="0" informationgain_doors="0.5">
+unacc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.5">
+acc
+</node>
+</node>
+<node low_boot="small" classes="unacc:4" entropy_small="0" informationgain_low_boot="0.333">
+unacc
+</node>
+</node>
+<node maint="med" classes="acc:6,unacc:6" entropy_med="0.5" informationgain_maint="0.156">
+<node low_boot="big" classes="acc:4" entropy_big="0" informationgain_low_boot="0.333">
+acc
+</node>
+<node low_boot="med" classes="acc:2,unacc:2" entropy_med="0.5" informationgain_low_boot="0.333">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.5">
+unacc
+</node>
+<node doors="3" classes="unacc:1" entropy_3="0" informationgain_doors="0.5">
+unacc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.5">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.5">
+acc
+</node>
+</node>
+<node low_boot="small" classes="unacc:4" entropy_small="0" informationgain_low_boot="0.333">
+unacc
+</node>
+</node>
+<node maint="vhigh" classes="unacc:12" entropy_vhigh="0" informationgain_maint="0.156">
+unacc
+</node>
+</node>
+</node>
+<node persons="more" classes="acc:90,good:21,unacc:81" entropy_more="0.693" informationgain_persons="0.151">
+<node buying="high" classes="acc:21,unacc:27" entropy_high="0.494" informationgain_buying="0.114">
+<node low_boot="big" classes="acc:12,unacc:4" entropy_big="0.406" informationgain_low_boot="0.194">
+<node maint="high" classes="acc:4" entropy_high="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="low" classes="acc:4" entropy_low="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="med" classes="acc:4" entropy_med="0" informationgain_maint="0.406">
+acc
+</node>
+<node maint="vhigh" classes="unacc:4" entropy_vhigh="0" informationgain_maint="0.406">
+unacc
+</node>
+</node>
+<node low_boot="med" classes="acc:9,unacc:7" entropy_med="0.494" informationgain_low_boot="0.194">
+<node maint="high" classes="acc:3,unacc:1" entropy_high="0.406" informationgain_maint="0.19">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+<node maint="low" classes="acc:3,unacc:1" entropy_low="0.406" informationgain_maint="0.19">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+<node maint="med" classes="acc:3,unacc:1" entropy_med="0.406" informationgain_maint="0.19">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+<node maint="vhigh" classes="unacc:4" entropy_vhigh="0" informationgain_maint="0.19">
+unacc
+</node>
+</node>
+<node low_boot="small" classes="unacc:16" entropy_small="0" informationgain_low_boot="0.194">
+unacc
+</node>
+</node>
+<node buying="low" classes="acc:26,good:14,unacc:8" entropy_low="0.714" informationgain_buying="0.114">
+<node maint="high" classes="acc:11,unacc:1" entropy_high="0.207" informationgain_maint="0.22">
+<node doors="2" classes="acc:2,unacc:1" entropy_2="0.459" informationgain_doors="0.092">
+<node low_boot="big" classes="acc:1" entropy_big="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="med" classes="acc:1" entropy_med="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="small" classes="unacc:1" entropy_small="0" informationgain_low_boot="0.459">
+unacc
+</node>
+</node>
+<node doors="3" classes="acc:3" entropy_3="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="4" classes="acc:3" entropy_4="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="5more" classes="acc:3" entropy_5more="0" informationgain_doors="0.092">
+acc
+</node>
+</node>
+<node maint="low" classes="acc:4,good:7,unacc:1" entropy_low="0.64" informationgain_maint="0.22">
+<node low_boot="big" classes="good:4" entropy_big="0" informationgain_low_boot="0.37">
+good
+</node>
+<node low_boot="med" classes="acc:1,good:3" entropy_med="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="acc:1" entropy_2="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="3" classes="good:1" entropy_3="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="4" classes="good:1" entropy_4="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="5more" classes="good:1" entropy_5more="0" informationgain_doors="0.406">
+good
+</node>
+</node>
+<node low_boot="small" classes="acc:3,unacc:1" entropy_small="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+</node>
+<node maint="med" classes="acc:4,good:7,unacc:1" entropy_med="0.64" informationgain_maint="0.22">
+<node low_boot="big" classes="good:4" entropy_big="0" informationgain_low_boot="0.37">
+good
+</node>
+<node low_boot="med" classes="acc:1,good:3" entropy_med="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="acc:1" entropy_2="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="3" classes="good:1" entropy_3="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="4" classes="good:1" entropy_4="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="5more" classes="good:1" entropy_5more="0" informationgain_doors="0.406">
+good
+</node>
+</node>
+<node low_boot="small" classes="acc:3,unacc:1" entropy_small="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+</node>
+<node maint="vhigh" classes="acc:7,unacc:5" entropy_vhigh="0.49" informationgain_maint="0.22">
+<node low_boot="big" classes="acc:4" entropy_big="0" informationgain_low_boot="0.355">
+acc
+</node>
+<node low_boot="med" classes="acc:3,unacc:1" entropy_med="0.406" informationgain_low_boot="0.355">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+<node low_boot="small" classes="unacc:4" entropy_small="0" informationgain_low_boot="0.355">
+unacc
+</node>
+</node>
+</node>
+<node buying="med" classes="acc:29,good:7,unacc:12" entropy_med="0.672" informationgain_buying="0.114">
+<node maint="high" classes="acc:7,unacc:5" entropy_high="0.49" informationgain_maint="0.215">
+<node low_boot="big" classes="acc:4" entropy_big="0" informationgain_low_boot="0.355">
+acc
+</node>
+<node low_boot="med" classes="acc:3,unacc:1" entropy_med="0.406" informationgain_low_boot="0.355">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+<node low_boot="small" classes="unacc:4" entropy_small="0" informationgain_low_boot="0.355">
+unacc
+</node>
+</node>
+<node maint="low" classes="acc:4,good:7,unacc:1" entropy_low="0.64" informationgain_maint="0.215">
+<node low_boot="big" classes="good:4" entropy_big="0" informationgain_low_boot="0.37">
+good
+</node>
+<node low_boot="med" classes="acc:1,good:3" entropy_med="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="acc:1" entropy_2="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="3" classes="good:1" entropy_3="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="4" classes="good:1" entropy_4="0" informationgain_doors="0.406">
+good
+</node>
+<node doors="5more" classes="good:1" entropy_5more="0" informationgain_doors="0.406">
+good
+</node>
+</node>
+<node low_boot="small" classes="acc:3,unacc:1" entropy_small="0.406" informationgain_low_boot="0.37">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+</node>
+<node maint="med" classes="acc:11,unacc:1" entropy_med="0.207" informationgain_maint="0.215">
+<node doors="2" classes="acc:2,unacc:1" entropy_2="0.459" informationgain_doors="0.092">
+<node low_boot="big" classes="acc:1" entropy_big="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="med" classes="acc:1" entropy_med="0" informationgain_low_boot="0.459">
+acc
+</node>
+<node low_boot="small" classes="unacc:1" entropy_small="0" informationgain_low_boot="0.459">
+unacc
+</node>
+</node>
+<node doors="3" classes="acc:3" entropy_3="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="4" classes="acc:3" entropy_4="0" informationgain_doors="0.092">
+acc
+</node>
+<node doors="5more" classes="acc:3" entropy_5more="0" informationgain_doors="0.092">
+acc
+</node>
+</node>
+<node maint="vhigh" classes="acc:7,unacc:5" entropy_vhigh="0.49" informationgain_maint="0.215">
+<node low_boot="big" classes="acc:4" entropy_big="0" informationgain_low_boot="0.355">
+acc
+</node>
+<node low_boot="med" classes="acc:3,unacc:1" entropy_med="0.406" informationgain_low_boot="0.355">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+<node low_boot="small" classes="unacc:4" entropy_small="0" informationgain_low_boot="0.355">
+unacc
+</node>
+</node>
+</node>
+<node buying="vhigh" classes="acc:14,unacc:34" entropy_vhigh="0.435" informationgain_buying="0.114">
+<node maint="high" classes="unacc:12" entropy_high="0" informationgain_maint="0.19">
+unacc
+</node>
+<node maint="low" classes="acc:7,unacc:5" entropy_low="0.49" informationgain_maint="0.19">
+<node low_boot="big" classes="acc:4" entropy_big="0" informationgain_low_boot="0.355">
+acc
+</node>
+<node low_boot="med" classes="acc:3,unacc:1" entropy_med="0.406" informationgain_low_boot="0.355">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+<node low_boot="small" classes="unacc:4" entropy_small="0" informationgain_low_boot="0.355">
+unacc
+</node>
+</node>
+<node maint="med" classes="acc:7,unacc:5" entropy_med="0.49" informationgain_maint="0.19">
+<node low_boot="big" classes="acc:4" entropy_big="0" informationgain_low_boot="0.355">
+acc
+</node>
+<node low_boot="med" classes="acc:3,unacc:1" entropy_med="0.406" informationgain_low_boot="0.355">
+<node doors="2" classes="unacc:1" entropy_2="0" informationgain_doors="0.406">
+unacc
+</node>
+<node doors="3" classes="acc:1" entropy_3="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="4" classes="acc:1" entropy_4="0" informationgain_doors="0.406">
+acc
+</node>
+<node doors="5more" classes="acc:1" entropy_5more="0" informationgain_doors="0.406">
+acc
+</node>
+</node>
+<node low_boot="small" classes="unacc:4" entropy_small="0" informationgain_low_boot="0.355">
+unacc
+</node>
+</node>
+<node maint="vhigh" classes="unacc:12" entropy_vhigh="0" informationgain_maint="0.19">
+unacc
+</node>
+</node>
+</node>
+</node>
+</tree>
