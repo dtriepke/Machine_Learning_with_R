@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "#=================================================================\n# Autor: Dennis Triepke, Jan Grohn, Oliver Tebeck, Tanja Münstedt\n# Datum: 28.11.2016\n# purpose: Launcher to run the k-NN Algorithm \n#=================================================================\n\nrm( list = ls(all = TRUE))\n\n## Local Initialisation ===================================\npathImp <- \"ImportData/\"\n\n\n## load functions =========================================\nsource(\"02_Support_Functions.R\")\n\n\n## load data ==============================================\nfilename <- \"car.data\"\ndata <- read.csv(paste0(pathImp,filename), header = FALSE, sep = \",\")\ncolnames(data) <- c(\"buying\", \"maint\", \"doors\", \"persons\", \"low_boot\", \"safety\", \"class_values\")\n\n# pre-processings\n\n# transform data into nummeric varibale and nomalize\n  # The car data has categorical variables. However, kNN only works for continious variables,\n  # Therefore we have to change the factors to numbers.\n  data= within(data,{\n    buying=ordered(buying,levels=c(\"low\",\"med\",\"high\",\"vhigh\"),labels=c(1,2,3,4))\n    maint=ordered(maint,levels=c(\"low\",\"med\",\"high\",\"vhigh\"),labels=c(1,2,3,4))\n    doors=ordered(doors,levels=c(\"2\",\"3\",\"4\",\"5more\"),labels=c(2,3,4,5))\n    persons=ordered(persons,levels=c(\"2\",\"4\",\"more\"),labels=c(2,4,6))\n    low_boot=ordered(low_boot,levels=c(\"small\",\"med\",\"big\"),labels=c(1,2,3))\n    safety=ordered(safety,levels=c(\"low\",\"med\",\"high\"),labels=c(1,2,3))\n  })\n  \n  data[1:6] <- lapply(data[1:6], function(x) as.numeric(as.character(x)) )\n  #data[1:6] <- lapply(data[1:6], normalize)\n\n## split data in test and traings data\nset.seed(1807)\ntrain <- sample(c(1:nrow(data)), size = 2/3 * nrow(data) )\ntest <- -train\ndata_train <- data[train,]\ndata_test <- data[test,]\n\n#p <- row.names(data_test)[1]\n#library(class)\nfor (p in row.names(data_test)){\n \n  data_test[p, \"estimated_class\"] <- \n    #knn(train = data_train[,1:6], test = data_test[p,1:6], cl = data_train[,7], k = 1 )\n    kNN(train = data_train[1:6], test_point = data_test[p, 1:6], class = data_train[,7], k = 1)\n}\n\n\n\n## check how the kNN is doing\n# error rate\nmean(data_test[,\"class_values\"] != data_test[,\"estimated_class\"]) # 0.2708333\n# confusion matrix\nxtabs( ~ class_values + estimated_class, data = data_test)\n\n\n\n\n",
+    "created" : 1484044571307.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "221641925",
+    "id" : "4E956BDD",
+    "lastKnownWriteTime" : 1484259728,
+    "last_content_update" : 1484259728,
+    "path" : "C:/Users/dtrie/Dropbox/Master - Statistik/Machine Learning/Assignment/Programming Assignment/kNN/00_R_Code/01_Launcher.R",
+    "project_path" : "01_Launcher.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

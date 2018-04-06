@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1489278975068.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3129426783",
+    "id" : "82D42C12",
+    "lastKnownWriteTime" : 1523042157,
+    "last_content_update" : 1523042157031,
+    "path" : "C:/Users/dtrie/Desktop/Machine_Learning_with_R/Naive_Bayes/00_R_Code/01_Support_Functions.R",
+    "project_path" : "01_Support_Functions.R",
+    "properties" : {
+        "cursorPosition" : "1,23",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

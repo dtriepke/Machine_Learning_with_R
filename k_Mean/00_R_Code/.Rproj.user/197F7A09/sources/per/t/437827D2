@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1484044919088.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "518169940",
+    "id" : "437827D2",
+    "lastKnownWriteTime" : 1523041803,
+    "last_content_update" : 1523041803432,
+    "path" : "C:/Users/dtrie/Desktop/Machine_Learning_with_R/k_Mean/00_R_Code/01_Support_Functions.R",
+    "project_path" : "01_Support_Functions.R",
+    "properties" : {
+        "cursorPosition" : "1,23",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

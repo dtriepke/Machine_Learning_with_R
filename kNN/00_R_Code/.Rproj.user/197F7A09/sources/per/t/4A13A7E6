@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1484116370575.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3289728967",
+    "id" : "4A13A7E6",
+    "lastKnownWriteTime" : 1484258935,
+    "last_content_update" : 1484258935,
+    "path" : "C:/Users/dtrie/Desktop/Machine_Learning_with_R/kNN/00_R_Code/02_Support_Functions.R",
+    "project_path" : "02_Support_Functions.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

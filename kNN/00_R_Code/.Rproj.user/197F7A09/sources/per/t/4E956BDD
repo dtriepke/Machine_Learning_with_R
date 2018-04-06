@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1484044571307.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1210830230",
+    "id" : "4E956BDD",
+    "lastKnownWriteTime" : 1523042085,
+    "last_content_update" : 1523042085256,
+    "path" : "C:/Users/dtrie/Desktop/Machine_Learning_with_R/kNN/00_R_Code/01_Launcher.R",
+    "project_path" : "01_Launcher.R",
+    "properties" : {
+        "cursorPosition" : "1,23",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

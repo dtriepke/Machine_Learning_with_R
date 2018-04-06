@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1481492379448.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1129304055",
+    "id" : "CCDE29DB",
+    "lastKnownWriteTime" : 1523041795,
+    "last_content_update" : 1523041795033,
+    "path" : "C:/Users/dtrie/Desktop/Machine_Learning_with_R/k_Mean/00_R_Code/00_Launcher.R",
+    "project_path" : "00_Launcher.R",
+    "properties" : {
+        "cursorPosition" : "1,23",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

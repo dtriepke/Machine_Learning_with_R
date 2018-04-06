@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1489278969538.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "301072912",
+    "id" : "E1D2A9ED",
+    "lastKnownWriteTime" : 1523042150,
+    "last_content_update" : 1523042150147,
+    "path" : "C:/Users/dtrie/Desktop/Machine_Learning_with_R/Naive_Bayes/00_R_Code/00_Launcher.R",
+    "project_path" : "00_Launcher.R",
+    "properties" : {
+        "cursorPosition" : "1,23",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

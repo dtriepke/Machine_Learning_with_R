@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "#=================================================================\n# Autor: Dennis Triepke, Jan Grohn, Oliver Tebeck, Tanja Münstedt\n# Datum: 28.11.2016\n# purpose: support functions for the k-mean algorithm\n#=================================================================\n\n\n# SQUARED EUCLIDEAN DISTANCE FUNCTION =======================\n# computes the squared euclidean distance between two points\ndistance = function (point1, point2){\n  sum((point1 - point2)^2)\n}\n\n\n\n# K-MEAN FUNCTION =======================================\n# the function is solely intended for data frames with at least rank scaled attributes \nk_means = function (data, k){\n  \n  # randomly choose k poins as start centroide\n  # generate k random cluster centers from the data\n  index = sample(1:nrow(data), k)\n  centroids = data[index,]\n  \n  # set prior_centroids to something different such that the algorithm does not immediatly converge\n  prior_centroids = centroids - 1\n  \n  # run until convergance\n  while( any(prior_centroids != centroids) ){\n    \n    # initialice vector that gonna map each data point () to a cluster\n    grouping = vector(length = nrow(data))\n    \n    \n    # for every data point i \n    for (i in 1:nrow(data)){\n      \n      # initialice a new distance vector (for each data point i as intermediate storage)\n      distance_vec = vector(length = nrow(centroids))\n      \n      # and every centroid j\n      for (j in 1:k) {\n        \n        # compute distance between each datapoint i and the each centroid j\n        distance_vec[j] = distance( data[i,], centroids[j,])\n      }\n      \n      \n      # find nearest centroid by min\n      grouping[i] = which(distance_vec == min(distance_vec))[[1]]\n    }\n    \n    # first save old centroid\n    prior_centroids = centroids\n    \n    # now compute k new centroides \n    # for centroid j and w.r.t. the attributes, calc the mean of all instances i which belongs to cluster j \n    for (j in 1:k) {\n      centroids[j,] = colMeans( data[grouping == j,] )\n    }\n    \n  }\n  \n  # after non cetroides changed the variable 'grouping' is a vector with the length of the data frame \n  # which includes the cluster membership for each in data point/ instances\n  return(grouping)\n  \n}\n",
+    "created" : 1484044919088.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2242931522",
+    "id" : "437827D2",
+    "lastKnownWriteTime" : 1481493489,
+    "last_content_update" : 1481493489,
+    "path" : "C:/Users/dtrie/Dropbox/Master - Statistik/Maschine Learning/Assignment/Programming Assignment/k_Mean/00_R_Code/01_Support_Functions.R",
+    "project_path" : "01_Support_Functions.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

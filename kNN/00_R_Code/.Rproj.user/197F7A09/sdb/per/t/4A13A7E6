@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "\n\n\n\n\n# k nearest neighbor function\nkNN <- function(train , test_point, class, k){\n  \n  \n  if( k > nrow(train)) { stop(\"k to large\")}\n  \n  dist_vec <- rep(0, nrow(train) )\n  \n  #i = 1\n  for (i in c(1: nrow(train))){\n    \n    tmp <- rbind( train[i,], test_point)\n    dist_vec[i] <- dist(tmp, method = \"euclidean\")\n  }\n  \n  \n  v <- data.frame(dist_vec, class)\n  v_ordered <- v[order(dist_vec) ,]\n  \n  \n  return( v_ordered[c(1:k), \"class\"] ) \n}\n",
+    "created" : 1484116370575.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3289728967",
+    "id" : "4A13A7E6",
+    "lastKnownWriteTime" : 1484258935,
+    "last_content_update" : 1484258935,
+    "path" : "C:/Users/dtrie/Dropbox/Master - Statistik/Machine Learning/Assignment/Programming Assignment/kNN/00_R_Code/02_Support_Functions.R",
+    "project_path" : "02_Support_Functions.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
